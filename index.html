@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Attendance Tracker</title>
+    <link rel="stylesheet" href="scrpit.css">
+</head>
+<body>
+
+<h1>Smart Attendance Tracker</h1>
+
+<div class="container">
+
+     <div id="loginDiv">
+        <input type="text" id="name" placeholder="Enter your name"> 
+        <button onclick="login()">Login</button>
+    </div> 
+
+    <div id="dashboardDiv" style="display: none;">
+        <h2>Welcome <span id="userName"></span></h2>
+
+        <button onclick="markAttendance()">Mark Attendance</button>
+
+         <p id="message"></p> 
+    </div>
+
+</div>
+
+<script src="scrpit.js"></script>
+
+</body>
+</html>
